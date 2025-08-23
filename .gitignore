@@ -1,0 +1,39 @@
+# IntelliJ IDEA settings
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build artifacts (Maven/Gradle)
+target/
+build/
+out/
+
+# Log files
+logs/
+*.log
+*.tmp
+
+# Environment variables and sensitive files
+.env
+application.properties.example # If you have a template for sensitive configs
+application.yml.example # If you have a template for sensitive configs
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependencies (managed by Maven/Gradle)
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven/Gradle caches
+.gradle/
+.m2/repository/
+
+# Test reports and coverage
+test-output/
+surefire-reports/
+jacoco/
